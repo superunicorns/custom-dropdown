@@ -85,7 +85,7 @@ const CustomSelect = () => {
         <ul className="w-full list-none p-0 flex flex-col flex-nowrap items-start justify-center bg-slate-950 mt-6 rounded-2xl shdow-lg lg:shadow-xl shadow-slate-500/40 cursor-pointer overflow-hidden">
           {options.map((option, index) => {
             return (
-              <li key={option.value} className="w-full border-l-4 border-transparent hover:border-l-4 focus:border-l-4 active:border-l-4 hover:border-l-emerald-600 focus:border-l-emerald-600 active:border-l-emerald-600 hover:bg-emerald-400 focus:bg-emerald-400 active:bg-emerald-400 transition-all delay-150 duration-300 ease-in-out" onClick={onOptionClicked(option)}>
+              <li key={option.value} className="w-full border-l-4 border-transparent hover:border-l-4 focus:border-l-4 active:border-l-4 hover:border-l-emerald-600 focus:border-l-emerald-600 active:border-l-emerald-600 hover:bg-emerald-400 focus:bg-emerald-400 active:bg-emerald-400 transition-all delay-150 duration-300 ease-in-out cursor-pointer" onClick={onOptionClicked(option)}>
                 <div className="w-full py-6 px-4 flex items-center gap-x-4 text-white opacity-80 transition-all delay-400 ease-linear duration-300 hover:text-slate-950 focus:text-slate-950 active:text-slate-950">
                   <img src={option.icon} alt={option.label} className="rounded-full" width={40} height={40} />
                   {option.label}
