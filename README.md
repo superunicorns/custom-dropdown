@@ -11,6 +11,7 @@ This is a custom select dropdown with icons and nice hover effects.
 - react
 - tailwind
 - css
+- spring
 
 ### Getting Started with Create React App
 
